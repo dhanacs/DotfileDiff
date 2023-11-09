@@ -1,2 +1,2 @@
-# DotfileDiff
-Utility to get the diff between two Dot files
+## DotfileDiff
+This utility provides functionality to compare two DOT files and discover unique names within them.
