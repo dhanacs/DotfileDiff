@@ -1,5 +1,7 @@
 ## DotfileDiff
-This utility provides functionality to compare two DOT files and discover unique names within them.
+DotfileDiff is a utility designed for comparing two DOT files, revealing commonalities and differences in the edges they define. This can be particularly useful for understanding the structural disparities between two directed graphs.
+
+The utility parses the DOT files and identifies edges in each file. It then highlights the edges common to both files, as well as those exclusive to each file. The output is structured to provide a clear understanding of the overlapping and unique relationships between the two graphs.
 
 ### Example Usage
 ### File A
@@ -48,3 +50,6 @@ h->e
 h->f
 h->g
 ```
+
+### Note
+The utility also has methods to identify unique nodes in each file.
